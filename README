@@ -1,0 +1,14 @@
+Test
+
+Run 2 instances at the same time:
+
+==> ./busylock busylock.c 0 20 10000000
+opening file: busylock.c
+testing byte range locks on file: busylock.c
+summary: total 10000000, pass 5774048, fail 4225952
+
+==> ./busylock busylock.c 0 20 10000000
+opening file: busylock.c
+testing byte range locks on file: busylock.c
+summary: total 10000000, pass 5771764, fail 4228236
+
